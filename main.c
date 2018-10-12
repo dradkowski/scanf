@@ -12,7 +12,7 @@ int main() {
     printf("podaj liczbe calkowita ");
     scanf(" %i", &wartosc_calkowita);
 
-    printf("podaj liczbe zmiennoprzecinkow a");
+    printf("podaj liczbe zmiennoprzecinkowa");
     scanf(" %lf", &wartosc_wymierna);
 
     printf("znak to %c, liczba calkowita to %i, liczba zmiannoprzecinkowa to %lf", znak, wartosc_calkowita, wartosc_wymierna);
