@@ -22,9 +22,7 @@ int main() {
     printf("podaj ciąg ", ciag_znakow);
     scanf("%s", ciag_znakow);
 
-    printf("znak to %c, liczba calkowita to %i, liczba zmiannoprzecinkowa to %lf, ciag to %s \n", znak, wartosc_calkowita, wartosc_wymierna, ciag_znakow);
-
-    printf("wybrano opcje %c : %31s", opcja, Napis);
+    printf("znak to %c, liczba calkowita to %i, liczba zmiannoprzecinkowa to %lf, ciag to %s \nwybrano opcje %c : %31s", znak, wartosc_calkowita, wartosc_wymierna, ciag_znakow,opcja, Napis);
 
     return 0;
 };
